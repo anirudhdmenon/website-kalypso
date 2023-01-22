@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+/* Split the screen in half */
+.split {
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    overflow-x: hidden;
+    /*border: 50px solid rgba(0, 0, 0, 0.4);*/
+    border-style: outset;
+    margin: 0;
+  }
+  
+  /* Control the left side */
+  .left {
+    width: 55%;
+    left: 0;
+    margin: none;
+    background-image: url('images/Kalypso.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border-right: none;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    width: 45%;
+    border-left: none;
+  }
+  .centered img{
+    width: 170px;
+    height:50px;
+  }
+  .form{
+    /*border: 2px solid black;*/
+    width: 450px;
+    height: auto;
+    text-align: left;
+    padding-left: 10px;
+  }
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .fname {
+    display: inline-block;
+    width: 49.5%;
+  }
+  .lname{
+    display: inline-block;
+    width: 49.5%;
+  }
+  #fName {
+    padding: 5px 10px;
+  }
+  #lName {
+    padding: 5px 10px;
+  }
+  .email{
+    margin-top: 20px;
+  }
+  #email {
+    padding: 5px 10px;
+    width: 95%;
+  }
+  .password{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  #pswd {
+    padding: 5px 10px;
+    width: 95%;
+  }
+  /*Toggle btn start*/
+  .switch {
+    position: relative;
+    display: inline-block;
+  }
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+    width: 25px;
+    height: 17px;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 16px;
+    width: 28px;
+    height: 16px;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: -1px;
+    bottom: -1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  .check{
+    vertical-align: top;
+  }
+  input:checked + .slider{
+    background-color: #2196F3;
+  }
+  input:focus + .slider {
+    box-shadow: 0 0 0.5px #2196F3;
+  }
+  input:checked + .slider:before {
+    -webkit-transform: translateX(12px);
+    -ms-transform: translateX(12px);
+    transform: translateX(12px);
+    border: 2px solid #2196F3;
+  }
+  /*Toggle btn end*/
+  button{
+    margin-top: 20px;
+    background-color: #2e4ac7;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+  }
+  button:hover{
+    background-color: #061e8a;
+  }
+  /*Footer*/
+  footer ul{
+    margin: 0;
+    padding: 0;
+  }
+  footer{
+    position: absolute;
+    padding: 10px 10px 0 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #5c5858;
+    text-align: center;
+  }
+  footer li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  footer a{
+    text-decoration: none;
+    color: #5c5858;
+  }
+  footer p{
+    color: #adafb3;
+  }
