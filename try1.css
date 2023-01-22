@@ -1,0 +1,7 @@
+body{
+    border: 0;
+}
+.hello{
+    border: 50px solid rgba(0, 0, 0, 0.4);
+    border-style: inset;
+}

@@ -8,8 +8,9 @@
     z-index: 0;
     top: 0;
     overflow-x: hidden;
-    /*border: 50px solid rgba(0, 0, 0, 0.4);*/
+    border: 50px solid rgba(0, 0, 0, 0.4);
     border-style: outset;
+    border: 0;
     margin: 0;
   }
   
@@ -17,11 +18,13 @@
   .left {
     width: 55%;
     left: 0;
-    margin: none;
+    margin: 0;
     background-image: url('images/Kalypso.PNG');
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    /*
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    border: 50px solid rgba(0, 0, 0, 0.3);
     border-right: none;
   }
   
@@ -29,7 +32,10 @@
   .right {
     right: 0;
     width: 45%;
+    border: 50px solid rgba(0, 0, 0, 0.4);
+    border-style: outset;
     border-left: none;
+    border-right: none;
   }
   .centered img{
     width: 170px;
