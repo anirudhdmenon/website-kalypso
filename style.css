@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 /* Split the screen in half */
 .split {
     height: 100%;
@@ -21,9 +22,16 @@
     background-size: cover;
     /*background-size: cover;
     background-repeat: no-repeat;*/
-    border: 50px solid rgba(0, 0, 0, 0.5);
+    border: 50px solid rgba(0, 0, 0, 0.2);
     border-style: outset;
     border-right: none;
+  }
+  .img{
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.5;
   }
   
   /* Control the right side */
@@ -46,6 +54,7 @@
   }
   .form{
     /*border: 2px solid black;*/
+    
     width: 350px;
     height: auto;
     text-align: left;
@@ -61,7 +70,7 @@
   }
   .name {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 49.5% 49.5%;
   }
   #fName {
     padding: 5px 5px;
@@ -135,7 +144,7 @@
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid rgb(209, 206, 206);
   }
   .check{
     vertical-align: top;
@@ -172,6 +181,7 @@
   .centered p{
     font-size: small;
     color: #5c5858;
+    
   }
   .centered p a{
     text-decoration: none;
