@@ -26,13 +26,6 @@
     border-style: outset;
     border-right: none;
   }
-  .img{
-    border: none;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    opacity: 0.5;
-  }
   
   /* Control the right side */
   .right {
