@@ -140,32 +140,33 @@
     vertical-align: top;
   }
   input:checked + .slider{
-    background-color: #2196F3;
+    background-color: #026abe;
   }
   input:focus + .slider {
-    box-shadow: 0 0 0.5px #2196F3;
+    box-shadow: 0 0 0.5px #026abe;
   }
   input:checked + .slider:before {
     -webkit-transform: translateX(12px);
     -ms-transform: translateX(12px);
     transform: translateX(12px);
-    border: 2px solid #2196F3;
+    border: 2px solid #026abe;
   }
   .toggle a{
     text-decoration: none;
+    color: #026abe;
   }
   /*Toggle btn end*/
   button{
     font-size: small;
     margin-top: 20px;
-    background-color: #2e4ac7;
+    background-color: #026abe;
     padding: 9px 15px;
     border: none;
     border-radius: 6px;
     transition-duration: 0.4s;
   }
   button:hover{
-    background-color: #061e8a;
+    background-color: #025396;
   }
   .centered p{
     font-size: small;
@@ -173,6 +174,7 @@
   }
   .centered p a{
     text-decoration: none;
+    color: #026abe;
   }
   
   /*Footer*/
@@ -193,7 +195,7 @@
   footer li{
     list-style: none;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
   }
   footer a{
     text-decoration: none;
