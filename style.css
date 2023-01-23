@@ -63,12 +63,6 @@
     display: grid;
     grid-template-columns: 50% 50%;
   }
-  .fname {
-    
-  }
-  .lname{
-   
-  }
   #fName {
     padding: 5px 5px;
     width: 99%;
@@ -96,6 +90,9 @@
   }
   input{
     font-size: small;
+  }
+  input::placeholder{
+    font-size:smaller;
   }
   /*Toggle btn start*/
   .switch {
@@ -154,6 +151,7 @@
   }
   /*Toggle btn end*/
   button{
+    font-size: small;
     margin-top: 20px;
     background-color: #2e4ac7;
     padding: 9px 15px;
@@ -164,10 +162,14 @@
   button:hover{
     background-color: #061e8a;
   }
+  .centered p{
+    font-size: small;
+  }
   /*Footer*/
   footer ul{
     margin: 0;
     padding: 0;
+    font-size: small;
   }
   footer{
     position: absolute;
@@ -189,4 +191,5 @@
   }
   footer p{
     color: #adafb3;
+    font-size: small;
   }
