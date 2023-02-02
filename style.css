@@ -36,6 +36,7 @@
     border-style: outset;
     border-left: none;
     border-right: none;
+    font-family: sans-serif;
   }
   img{
     width: 140px;
@@ -52,6 +53,10 @@
     height: auto;
     text-align: left;
     font-size: small;
+  }
+  h2{
+    font-weight: 800;
+    font-size: medium;
   }
   /* If you want the content centered horizontally and vertically */
   .centered {
@@ -97,20 +102,20 @@
     margin-top: 4px;
   }
   input::placeholder{
-    font-size:smaller;
+    font-size: smaller;
   }
   /*Toggle btn start*/
   .switch {
     position: relative;
     display: inline-block;
-    font-size: small;
+    width: 30px;
+    height: 17px;
   }
+
   .switch input { 
     opacity: 0;
     width: 0;
     height: 0;
-    width: 25px;
-    height: 17px;
   }
   .slider {
     position: absolute;
@@ -122,47 +127,48 @@
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
-    border-radius: 16px;
-    width: 28px;
-    height: 16px;
+    border-radius: 17px;
   }
   .slider:before {
     position: absolute;
     content: "";
-    height: 15px;
-    width: 15px;
-    left: -1px;
-    bottom: -1px;
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;
-    border: 2px solid rgb(209, 206, 206);
   }
-  .check{
-    vertical-align: top;
-  }
+  
   input:checked + .slider{
     background-color: #026abe;
   }
   input:focus + .slider {
-    box-shadow: 0 0 0.5px #026abe;
+    box-shadow: 0 0 1px #026abe;
   }
   input:checked + .slider:before {
-    -webkit-transform: translateX(12px);
-    -ms-transform: translateX(12px);
-    transform: translateX(12px);
-    border: 2px solid #026abe;
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+  }
+  .toggle p{
+    display: inline;
+    position: relative;
+    top: 8px;
   }
   .toggle a{
     text-decoration: none;
     color: #026abe;
   }
+  
   /*Toggle btn end*/
   button{
     font-size: small;
     margin-top: 20px;
     background-color: #026abe;
+    color: white;
     padding: 9px 15px;
     border: none;
     border-radius: 6px;
@@ -172,9 +178,8 @@
     background-color: #025396;
   }
   .centered p{
-    font-size: small;
     color: #5c5858;
-    
+    font-size: smaller;
   }
   .centered p a{
     text-decoration: none;
@@ -185,7 +190,7 @@
   footer ul{
     margin: 0;
     padding: 0;
-    font-size: small;
+    font-size: x-small;
   }
   footer{
     position: absolute;
@@ -207,5 +212,5 @@
   }
   footer p{
     color: #adafb3;
-    font-size: small;
+    font-size: xx-small;
   }
